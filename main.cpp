@@ -17,7 +17,7 @@ int main()
     TestAddBeginning();
     TestExtractionOperator();
 
-    
+    //Testing Collection Class
     cout << "\nChecking add method: " << endl;
     Collection two(5);
     two.add(34);

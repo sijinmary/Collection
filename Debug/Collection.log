@@ -1,7 +1,6 @@
 ﻿  Collection.cpp
-  main.cpp
-  Generating Code...
 C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Collection.cpp(66): warning C4715: 'Collection::get': not all control paths return a value
-C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Collection.cpp(79): warning C4715: 'Collection::getFront': not all control paths return a value
-C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Collection.cpp(93): warning C4715: 'Collection::getEnd': not all control paths return a value
+C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Collection.cpp(80): warning C4715: 'Collection::getFront': not all control paths return a value
+C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Collection.cpp(94): warning C4715: 'Collection::getEnd': not all control paths return a value
+  LINK : C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Debug\Collection.exe not found or not built by the last incremental link; performing full link
   Collection.vcxproj -> C:\Users\jince\OneDrive\sijin dell PC\Weber\CS2420\Assignments\Collection\Collection\Debug\Collection.exe

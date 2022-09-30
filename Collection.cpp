@@ -63,7 +63,8 @@ double Collection::get(int ndx) {
     catch (std::out_of_range e) {
         std::cout << e.what() << std::endl;
     }
-}// Returns the first value in the array
+}
+// Returns the first value in the array
 double Collection::getFront() {
     try {
         if (current_size_ == 0) {
@@ -102,12 +103,10 @@ int Collection::find(double needle) {
 }
 // : overload the extraction operator to display the list.
 std::ostream& operator<<(std::ostream& out, const Collection& c) {
-    for (int i = 0; i < c.current_size_; i++) {
-        out << c.collectionArray_[i];
-        if (i < c.current_size_-1) {
-            out << " ";
-        }
+    for (int i = 0; i < c.current_size_-1; i++) {
+        out << c.collectionArray_[i] << " ";   
     }
+    out << c.collectionArray_[c.current_size_-1];
     return out;
 }
 
